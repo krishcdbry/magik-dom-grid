@@ -48,11 +48,11 @@ a:hover {
 	background: #1e90b9;
 }
 
-a.btn.btn-grid {
+#grid-config a.btn {
 	background: #f0f0f0;
 	padding: 8px 0px;
 	width: 78px;
-	margin: 0px;
+	margin: 5px;
 	border-radius: 4px;
 	color: #22a0ce;
 }
