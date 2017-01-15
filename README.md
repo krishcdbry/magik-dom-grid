@@ -9,6 +9,8 @@ A pure javascript grid in which every cell will be assigned a random color on cl
 4. Refresh page or click on refresh button, Grid will remains in its saved state.
 5. Click on reset button to reset the grid into initial state.
 
+# Implementation
+Total application is built with Pure JS. Most parts of body includes complete grid @ implemented using a closure with all private properties and methods to achieve complete Abstraction. 
 
 ## Demo
 Demo GUI @[dom-tag-depth](http://magik-dom-grid.thenodejs.com)
