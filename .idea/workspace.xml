@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cb02119-0a2d-44ae-96ea-d83ee4cbbb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/grid.css" afterPath="$PROJECT_DIR$/assets/grid.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/grid.js" afterPath="$PROJECT_DIR$/assets/grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="magik-dom-grid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,27 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="grid.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="172" column="50" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
-                <element signature="e#935#1164#0" expanded="false" />
-                <element signature="e#1333#1817#0" expanded="false" />
-                <element signature="e#2016#2235#0" expanded="false" />
-                <element signature="e#2590#3499#0" expanded="false" />
                 <element signature="e#3761#3873#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grid.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/grid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+            <state relative-caret-position="112">
+              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -95,9 +89,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/assets/grid.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/grid.css" />
+        <option value="$PROJECT_DIR$/assets/grid.js" />
       </list>
     </option>
   </component>
@@ -238,12 +232,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484509056019</updated>
-      <workItem from="1484509057438" duration="6550000" />
+      <workItem from="1484509057438" duration="6722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6550000" />
+    <option name="totallyTimeSpent" value="6722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="294" y="105" width="1332" height="981" extended-state="0" />
@@ -295,20 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="172" column="50" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
-          <folding>
-            <element signature="e#935#1164#0" expanded="false" />
-            <element signature="e#1333#1817#0" expanded="false" />
-            <element signature="e#2016#2235#0" expanded="false" />
-            <element signature="e#2590#3499#0" expanded="false" />
-            <element signature="e#3761#3873#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -321,9 +301,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/grid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        <state relative-caret-position="112">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#3761#3873#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,9 +6,9 @@
 	 * @name createButton
 	 * @typicalname createButton
 	 * @param {Node} footer  - footer node
-	 * @param {String} text  - text to be displayed on button
-	 * @param {Function} fun  - function name
-	 * @param {Number|null} gridConfig - for row*col specification
+	 * @param {string} text  - text to be displayed on button
+	 * @param {function} fun  - function name
+	 * @param {number|null} gridConfig - for row*col specification
 	 * @desc - To create a button element and appends to footer
 	 * @usage
 	 * createButton(tagname)
@@ -80,7 +80,7 @@
 	 * @name getRandomColor
 	 * @typicalname getRandomColor
 	 * @desc - Getting random HTML Color code
-	 * @return {String} color
+	 * @return {string} color
 	 * @usage
 	 * getRandomColor()
 	 */
@@ -97,9 +97,9 @@
 	/**
 	 * @name createBlocks
 	 * @typicalname createBlocks
-	 * @param {Number} row  - Number of rows
-	 * @param {Number} col  - Number of cols
-	 * @param {Object|null} blocks  - Blocks object with saved color codes
+	 * @param {number} row  - number of rows
+	 * @param {number} col  - number of cols
+	 * @param {object|null} blocks  - Blocks object with saved color codes
 	 * @desc - To create the board according to the data
 	 * @usage
 	 * createBlocks(5, 5, {});
@@ -146,7 +146,7 @@
 	/**
 	 * @name setGrid
 	 * @typicalname setGrid
-	 * @param {Number} num config  - Creating a grid according to the given measurment
+	 * @param {number} num config  - Creating a grid according to the given measurment
 	 * @desc - To create a button element and appends to footer
 	 * @usage
 	 * createButton(tagname)
