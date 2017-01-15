@@ -1,3 +1,7 @@
+/**
+ * @desc
+ * A Closure with all private properties & methods. Everything in the HTML document is built with pure JS to acheive complete abstraction.
+ */
 (function (window, document) {
 	var rows = 10;
 	var cols = 10;
