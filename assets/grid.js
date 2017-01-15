@@ -99,6 +99,24 @@
 	}
 
 	/**
+	 * @name fillAll
+	 * @desc - Setting all blocks with random color
+	 * @usage
+	 * fillAll()
+	 */
+	function fillAll () {
+		var blocks = document.getElementsByClassName('block');
+		for (var i = 0; i < blocks.length; i++) {
+			(function(i) {
+				setTimeout(function() {
+					blocks[i].style.backgroundColor = getRandomColor();
+					blocks[i].style.color = '#fff';
+				}, 100+10*i);
+			})(i);
+		}
+	}
+
+	/**
 	 * @name createBlocks
 	 * @typicalname createBlocks
 	 * @param {number} row  - number of rows
@@ -173,6 +191,7 @@
 	var footer = document.getElementById('footer');
 	var gridConf = document.getElementById('grid-config');
 
+	createButton(footer, 'Color all', fillAll);
 	createButton(footer, 'Reset', resetBoard);
 	createButton(footer, 'Save state', saveState);
 	createButton(footer, 'Refresh page', window.location.reload);
