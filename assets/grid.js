@@ -24,7 +24,7 @@
 		btn.className = 'btn';
 		btn.addEventListener("click", function() {
 			if (!gridConfig) {
-				fun();
+				(fun) ? fun() : window.location.reload();
 			}
 			else {
 				fun(gridConfig);
@@ -92,7 +92,7 @@
 		var x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
 		var color = '#';
 		for (var i = 0; i < 6; i++) {
-			var rand = Math.floor(Math.random(0, 15) * 10);
+			var rand = Math.floor(Math.random() * 15);
 			color += x[rand];
 		}
 		return color;
@@ -194,7 +194,7 @@
 	createButton(footer, 'Color all', fillAll);
 	createButton(footer, 'Reset', resetBoard);
 	createButton(footer, 'Save state', saveState);
-	createButton(footer, 'Refresh page', window.location.reload);
+	createButton(footer, 'Refresh page');
 
 
 	createButton(gridConf, '5 X 5', setGrid , 5);
