@@ -13,8 +13,8 @@ A pure javascript grid in which every cell will be assigned a random color on cl
 Total application is built with Pure JS. Most parts of body includes complete grid @ implemented using a closure with all private properties and methods to achieve complete Abstraction. 
 
 ## Demo
-Demo GUI @[dom-tag-depth](http://magik-dom-grid.thenodejs.com)
-| http://magik-dom-grid.thenodejs.com
+Demo GUI @[dom-tag-depth](https://krishcdbry.github.io/magik-dom-grid/)
+| https://krishcdbry.github.io/magik-dom-grid/
 
 ## Author
 Krishcdbry [krishcdbry@gmail.com]
